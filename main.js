@@ -8,6 +8,7 @@ submitEl.addEventListener("click", function(){
     tasks.push(textInput.value)
     render()
     console.log("Submit button clicked!")
+    textInput.value = ''
 });
 
 
