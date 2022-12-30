@@ -1,0 +1,133 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    flex-direction: column;
+}
+
+.name {
+    margin-left: 100px;
+}
+
+.work {
+    padding: 2px;
+}
+
+.list {
+    margin-top: 15px;
+}
+
+.header {
+    border: 3px solid black;
+    border-radius: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 23px;
+}
+
+input#myInput {
+    background: #bef7ff;
+    border-color: #3535d2;
+    padding-top: 3px;
+    padding-bottom: 4px;
+    margin-top: 5px;
+}
+
+button#submit-btn {
+    padding: 5px 20px;
+    border-radius: 15px;
+    font-size: small;
+    text-align: center;
+    background: #49B749;
+    color: white;
+    border: none;
+}
+
+button#submit-btn:hover {
+    cursor: pointer;
+    opacity: 0.75;
+}
+
+button#clear-btn {
+    padding: 5px 20px;
+    border-radius: 15px;
+    font-size: small;
+    text-align: center;
+    background: #aa1515;
+    color: white;
+    border: none;
+}
+
+button#clear-btn:hover {
+    cursor: pointer;
+    opacity: 0.75;
+}
+
+.icons {
+    justify-content: center;
+    display: flex;
+    margin: 10px 0px;
+}
+
+.IGicon {
+    width: auto;
+    height: 10px;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+    color: #cd486b;
+    transition: color 0.2s;
+}
+
+.IGicon:hover {
+    width: auto;
+    height: 10px;
+    margin: 10px;
+    text-align: center;
+    font-size: 32px;
+    text-decoration: none;
+    color: #75281C;
+    transition: color 0.3s;
+}
+
+.GHicon {
+    width: auto;
+    height: 10px;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+    color: #4A4645;
+}
+
+.GHicon:hover {
+    width: auto;
+    height: 10px;
+    margin: 10px;
+    text-align: center;
+    font-size: 32px;
+    text-decoration: none;
+    color: black;
+}
+
+.LIicon {
+    width: auto;
+    height: 10px;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+    color: #5985C4;
+}
+
+.LIicon:hover {
+    width: auto;
+    height: 10px;
+    margin: 10px;
+    text-align: center;
+    font-size: 32px;
+    text-decoration: none;
+    color: #0072b1;
+}
